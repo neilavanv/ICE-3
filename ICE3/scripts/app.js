@@ -28,3 +28,5 @@ console.log(`New Array: ${array2}`);
 // Tuesday
 let tuesdayArray = new Array(10).fill("Tuesday!")
 console.log(`Class is on ${tuesdayArray}`);
+
+function square
