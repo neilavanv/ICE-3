@@ -29,4 +29,15 @@ console.log(`New Array: ${array2}`);
 let tuesdayArray = new Array(10).fill("Tuesday!")
 console.log(`Class is on ${tuesdayArray}`);
 
-function square
+function square(x)
+{
+    return x * x;
+}
+
+let nums = new Array(1, 33, 22, 5);
+let squaredNums = nums.map(function(value)
+{
+    return square(value);
+});
+
+console.log(`Squared Number: ${squaredNums}`);
